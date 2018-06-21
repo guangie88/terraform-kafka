@@ -87,10 +87,10 @@ variable "ebs_device_name" {
   default = "/dev/xvdf"
 }
 
-variable "ebs_volume_ids" {
-  type = "list"
-  description = "list of EBS volume IDs"
-}
+# variable "ebs_volume_ids" {
+#   type = "list"
+#   description = "list of EBS volume IDs"
+# }
 
 variable "num_partitions" {
   description = "number of partitions per topic"
