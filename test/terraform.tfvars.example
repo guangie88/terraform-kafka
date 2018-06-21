@@ -8,7 +8,6 @@ user = "ec2-user"
 iam_instance_profile = ""
 key_name = ""
 private_key_path = ""
-bastion_private_key_path = ""
 authorized_key_path = ""
 zookeeper_instance_type = "t2.medium"
 zookeeper_addr = 20
