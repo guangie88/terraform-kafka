@@ -61,5 +61,4 @@ module "kafka" {
   kafka_instance_type = "${var.kafka_instance_type}"
   num_partitions = "${var.num_partitions}"
   private_key = "${var.private_key_path}"
-  cloudwatch_alarm_arn = "${var.cloudwatch_alarm_arn}"
 }

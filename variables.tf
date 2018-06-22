@@ -9,7 +9,7 @@ variable "environment" {
 
 variable "app_name" {
   description = "application name"
-  default = "infra"
+  default = "app"
 }
 
 variable "brokers_per_az" {
@@ -130,9 +130,4 @@ variable "key_name" {
 variable "private_key" {
   type = "string"
   description = "local path to ssh private key"
-}
-
-variable "cloudwatch_alarm_arn" {
-  type = "string"
-  description = "cloudwatch alarm ARN"
 }

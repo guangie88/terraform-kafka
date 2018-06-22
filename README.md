@@ -10,7 +10,6 @@ This module creates a Kafka cluster.
 | ------------------------- | ---------------------------------------------------------- | -------------------------------- |
 | `app_name`                | application name                                           |                                  |
 | `brokers_per_az`          | number of Kafka brokers per AZ                             |                                  |
-| `cloudwatch_alarm_arn`    | cloudwatch alarm ARN                                       |                                  |
 | `ebs_device_name`         | EBS attached device                                        | /dev/xvdf                        |
 | `ebs_mount_point`         | mount point for EBS volume                                 | /mnt/kafka                       |
 | `ebs_volume_ids`          | list of EBS volume IDs                                     |                                  |

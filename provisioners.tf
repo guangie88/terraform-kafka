@@ -48,7 +48,6 @@ resource "null_resource" "kafka-nodes" {
   count = "${aws_instance.kafka-server.count}"
   depends_on = ["null_resource.zookeeper-nodes"]
   triggers {
-    # kafka_attach_id = "${element(aws_volume_attachment.attach.*.id, count.index)}"
     zookeeper_id = "${join(",", null_resource.zookeeper-nodes.*.id)}"
   }
   connection {

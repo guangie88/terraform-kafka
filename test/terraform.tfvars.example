@@ -14,4 +14,3 @@ zookeeper_addr = 20
 kafka_instance_type = "m4.large"
 brokers_per_az = 2
 num_partitions = 10
-cloudwatch_alarm_arn = ""
